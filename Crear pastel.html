@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="=X-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡CREA TU PASTEL!</title>
+</head>
+<body>
+    <div align="right">
+        <h4>Dirección: Calz. Manhatan</h4>
+        <h4>Tel: 5564652345</h4>
+        <h4>Horario de atención: Lunes - Sábado / 10am - 9pm</h4>
+        <a href="./Pastelero.html">
+            <input type="button" value="Información para el pastelero.">
+        </a>
+    </div>
+    <img src="E:\HTML\Practicas\Segunda Seamana HTML\PASTELERIA\PANCAKE.PNG" alt="logo Pasteleria" width="200px">
+    <h1>¡Haz tu pedido y crea tu pastel!</h1>
+
+    <form>
+
+        <label for="Nombre">Nombre completo:</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="Telefono">Teléfono de contacto:</label><br>
+        <input type="text" id="Telefono" name="Telefono" placeholder="Telefono">
+
+        <br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="text" id="email" name="email" placeholder="email">
+
+        <br><br>
+
+        <h1>¡Crea tu pastel!</h1>
+
+        <p>Sabor de pastel:</p>
+        <select name="saborPastel" id="saborPastel">
+            <option value="Nada">Nada</option>
+            <option value="Sabor Chocolate">Chocolate</option>
+            <option value="Sabor Fresa">Fresa</option>
+            <option value="Sabor Vainilla">Vainilla</option>
+            <option value="Sabor Cajeta">Cajeta</option>
+            <option value="Sabor Durazno">Durazno</option>
+            <option value="Sabor Café">Café</option>
+            <option value="Sabor Platano">Platano</option>
+        </select>
+
+        <p>Decoración para tu pastel:</p>
+        <select name="adorno" id="adorno">
+            <option value="Nada">Nada</option>
+            <option value="Fondant">Fondant</option>
+            <option value="Chispas de Chocolate">Chispas de Chocolate</option>
+            <option value="m&m's">m&m's</option>
+            <option value="Carlos V">Carlos V</option>
+            <option value="Fresas en trozitos">Fresas en trozitos</option>
+            <option value="Duraznos en trozitos">Duraznos en trozitos</option>
+            <option value="Conejito turin">Conejito turin</option>
+        </select>
+        <h2>¡Listo!</h2>
+        <h3>Haz creado tu pastel.</h3>
+        <input type="reset">
+        <input type="submit"
+            onclick="alert('Se ha enviado tu pedido');">
+        </a>
+        <a href="./Pasteleria.html">
+            <input type="button" value="Inicio">
+        </a>
+    </form>
+</body>
